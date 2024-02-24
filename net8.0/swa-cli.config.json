@@ -1,0 +1,9 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "4f-versione-completa2.client": {
+      "appLocation": ".",
+      "outputLocation": "."
+    }
+  }
+}
