@@ -1,0 +1,97 @@
+/* ===================================================================================
+
+* Theme Name: Autrics Child
+* Theme URI: https://themeforest.net/user/tripples/portfolio
+* Description: Car Repair Services and Auto Mechanic WordPress Theme
+* Version: 1.5
+* Author: Tripples
+* Author URI: http://www.themewinter.com
+* Template: autrics
+* License: GNU General Public License version 3.0
+* License URI: http://www.gnu.org/licenses/gpl-3.0.html
+* Tags: one-column, right-sidebar, left-sidebar, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+
+* We encourage you to create Child theme for any modifications you will want to do.
+
+* Why use Child theme?
+
+* Because of future updates we may provide for this theme that will overwrite your
+* modifications and all your custom work.
+
+* If you are not familiar with Child Themes, you can read about it here:
+* http://codex.wordpress.org/Child_Themes
+* http://wp.tutsplus.com/tutorials/theme-development/child-themes-basics-and-creating-child-themes-in-wordpress/
+
+====================================================================================== */
+.owl-stage-outer .post-image{
+   width:100%; /*container-width*/
+   overflow:hidden; /*hide bounds of image */
+   margin:0;   /*reset margin of figure tag*/
+	height: 250px;
+}
+.owl-stage-outer .post-image img{
+   display:block; /*remove inline-block spaces*/
+   width:100%; /*make image streatch*/
+}
+/** CSS per contact form —**/
+#responsive-form{
+max-width:100%;
+margin:0 auto;
+width:100%;
+}
+.form-row{
+width: 100%;
+}
+
+input, textarea {
+    width: 100%;
+	padding: 10px 5px;
+	border:0px;
+}
+input[type=checkbox], input[type=radio] {
+    width: 25px
+}
+
+.column-half, .column-full{
+float: left;
+position: relative;
+padding: 0.65rem;
+width:100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+color:#222;
+}
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/**—————- Media query —————-**/
+@media only screen and (min-width: 48em) {
+.column-half{
+width: 50%;
+}
+}
+
+/**—————- Per cambiare il colore del bottone —————-**/
+.wpcf7-submit{
+background: #000/*– colore sfondo –*/;
+color: white/*– colore testo –*/;
+}
+
+/**—————- Colore del bottone con il passaggio del mouse —————-**/
+.wpcf7-submit:hover{
+background: #f3f3f3;
+color: #000;
+}
+
+/**—————- Per personalizzare il messaggio di successo —————-**/
+
+div.wpcf7-mail-sent-ok {
+text-shadow: none;
+border: none;
+background: #8BC34A;
+color: white;
+}
